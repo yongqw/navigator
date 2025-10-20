@@ -1,0 +1,102 @@
+{
+  "metadata": {
+    "name": "Riverside Town Complex",
+    "description": "A realistic town with complex traffic patterns, one-way streets, and restricted turns",
+    "intersections_count": 45,
+    "roads_count": 78
+  },
+  "intersections": {
+    "0": {"x": 0, "y": 0, "type": "intersection", "turns": {"right": "1", "down": "6"}, "traffic_light": true},
+    "1": {"x": 2, "y": 0, "type": "intersection", "turns": {"left": "0", "right": "2", "down": "7"}, "traffic_light": true},
+    "2": {"x": 4, "y": 0, "type": "intersection", "turns": {"left": "1", "right": "3", "down": "8"}, "traffic_light": false},
+    "3": {"x": 6, "y": 0, "type": "intersection", "turns": {"left": "2", "down": "9"}, "traffic_light": true},
+    "4": {"x": 8, "y": 1, "type": "dead_end", "turns": {"left": "9"}, "traffic_light": false},
+    "5": {"x": 10, "y": 0, "type": "intersection", "turns": {"left": "10", "down": "11"}, "traffic_light": true},
+
+    "6": {"x": 0, "y": 2, "type": "intersection", "turns": {"up": "0", "right": "7", "down": "12"}, "traffic_light": true},
+    "7": {"x": 2, "y": 2, "type": "intersection", "turns": {"up": "1", "left": "6", "right": "8", "down": "13"}, "traffic_light": true},
+    "8": {"x": 4, "y": 2, "type": "intersection", "turns": {"up": "2", "left": "7", "right": "9"}, "traffic_light": false},
+    "9": {"x": 6, "y": 2, "type": "intersection", "turns": {"up": "3", "left": "8", "right": "4", "down": "14"}, "traffic_light": true},
+    "10": {"x": 8, "y": 2, "type": "intersection", "turns": {"up": "5", "left": "9", "right": "11"}, "traffic_light": false},
+    "11": {"x": 10, "y": 2, "type": "intersection", "turns": {"up": "5", "left": "10", "down": "15"}, "traffic_light": true},
+
+    "12": {"x": 0, "y": 4, "type": "intersection", "turns": {"up": "6", "right": "13"}, "traffic_light": false},
+    "13": {"x": 2, "y": 4, "type": "intersection", "turns": {"up": "7", "left": "12", "right": "14", "down": "18"}, "traffic_light": true},
+    "14": {"x": 4, "y": 4, "type": "intersection", "turns": {"up": "9", "left": "13", "right": "15"}, "traffic_light": false},
+    "15": {"x": 6, "y": 4, "type": "intersection", "turns": {"up": "11", "left": "14", "right": "16", "down": "19"}, "traffic_light": true},
+    "16": {"x": 8, "y": 4, "type": "intersection", "turns": {"up": "10", "left": "15", "right": "17"}, "traffic_light": false},
+    "17": {"x": 10, "y": 4, "type": "dead_end", "turns": {"left": "16"}, "traffic_light": false},
+
+    "18": {"x": 2, "y": 5, "type": "intersection", "turns": {"up": "13", "right": "19", "down": "23"}, "traffic_light": false},
+    "19": {"x": 4, "y": 5, "type": "intersection", "turns": {"up": "15", "left": "18", "right": "20", "down": "24"}, "traffic_light": true},
+    "20": {"x": 6, "y": 5, "type": "intersection", "turns": {"up": "19", "left": "24", "right": "21"}, "traffic_light": false},
+    "21": {"x": 8, "y": 5, "type": "intersection", "turns": {"up": "16", "left": "20", "right": "22"}, "traffic_light": true},
+    "22": {"x": 10, "y": 5, "type": "dead_end", "turns": {"left": "21"}, "traffic_light": false},
+
+    "23": {"x": 2, "y": 6, "type": "intersection", "turns": {"up": "18", "right": "24"}, "traffic_light": false},
+    "24": {"x": 4, "y": 6, "type": "intersection", "turns": {"up": "19", "left": "23", "right": "25", "down": "29"}, "traffic_light": true},
+    "25": {"x": 6, "y": 6, "type": "intersection", "turns": {"up": "20", "left": "24", "right": "26"}, "traffic_light": false},
+    "26": {"x": 8, "y": 6, "type": "intersection", "turns": {"up": "21", "left": "25", "right": "27"}, "traffic_light": true},
+    "27": {"x": 10, "y": 6, "type": "intersection", "turns": {"up": "22", "left": "26", "down": "31"}, "traffic_light": false},
+
+    "28": {"x": 1, "y": 7, "type": "dead_end", "turns": {"right": "29"}, "traffic_light": false},
+    "29": {"x": 2, "y": 7, "type": "intersection", "turns": {"up": "24", "left": "28", "right": "30", "down": "33"}, "traffic_light": true},
+    "30": {"x": 4, "y": 7, "type": "intersection", "turns": {"up": "24", "left": "29", "right": "31"}, "traffic_light": false},
+    "31": {"x": 6, "y": 7, "type": "intersection", "turns": {"up": "27", "left": "30", "right": "32", "down": "35"}, "traffic_light": true},
+    "32": {"x": 8, "y": 7, "type": "intersection", "turns": {"up": "26", "left": "31", "right": "33"}, "traffic_light": false},
+    "33": {"x": 10, "y": 7, "type": "dead_end", "turns": {"left": "32"}, "traffic_light": false},
+
+    "34": {"x": 0, "y": 8, "type": "intersection", "turns": {"right": "35", "down": "38"}, "traffic_light": false},
+    "35": {"x": 2, "y": 8, "type": "intersection", "turns": {"up": "31", "left": "34", "right": "36", "down": "39"}, "traffic_light": true},
+    "36": {"x": 4, "y": 8, "type": "intersection", "turns": {"up": "30", "left": "35", "right": "37"}, "traffic_light": false},
+    "37": {"x": 6, "y": 8, "type": "intersection", "turns": {"up": "31", "left": "36", "right": "38"}, "traffic_light": true},
+    "38": {"x": 8, "y": 8, "type": "intersection", "turns": {"up": "34", "left": "37", "right": "39", "down": "42"}, "traffic_light": false},
+    "39": {"x": 10, "y": 8, "type": "intersection", "turns": {"up": "35", "left": "38", "down": "43"}, "traffic_light": true},
+
+    "40": {"x": 1, "y": 9, "type": "dead_end", "turns": {"right": "41"}, "traffic_light": false},
+    "41": {"x": 2, "y": 9, "type": "intersection", "turns": {"up": "35", "left": "40", "right": "42"}, "traffic_light": false},
+    "42": {"x": 4, "y": 9, "type": "intersection", "turns": {"up": "38", "left": "41", "right": "43"}, "traffic_light": true},
+    "43": {"x": 6, "y": 9, "type": "intersection", "turns": {"up": "39", "left": "42", "right": "44"}, "traffic_light": false},
+    "44": {"x": 8, "y": 9, "type": "dead_end", "turns": {"left": "43"}, "traffic_light": false}
+  },
+  "road_types": {
+    "0-6": {"type": "main_road", "speed_limit": 50, "lanes": 2, "one_way": false},
+    "6-12": {"type": "main_road", "speed_limit": 50, "lanes": 2, "one_way": false},
+    "1-7": {"type": "main_road", "speed_limit": 50, "lanes": 2, "one_way": false},
+    "7-13": {"type": "main_road", "speed_limit": 50, "lanes": 2, "one_way": false},
+    "2-8": {"type": "secondary_road", "speed_limit": 40, "lanes": 1, "one_way": false},
+    "8-14": {"type": "secondary_road", "speed_limit": 40, "lanes": 1, "one_way": false},
+    "3-9": {"type": "main_road", "speed_limit": 50, "lanes": 2, "one_way": false},
+    "9-15": {"type": "main_road", "speed_limit": 50, "lanes": 2, "one_way": false},
+    "5-11": {"type": "highway", "speed_limit": 80, "lanes": 3, "one_way": false},
+    "11-17": {"type": "highway", "speed_limit": 80, "lanes": 3, "one_way": true, "direction": "south"},
+    "10-16": {"type": "secondary_road", "speed_limit": 40, "lanes": 1, "one_way": false},
+    "16-17": {"type": "local_road", "speed_limit": 30, "lanes": 1, "one_way": false},
+    "19-24": {"type": "main_road", "speed_limit": 50, "lanes": 2, "one_way": false},
+    "24-29": {"type": "main_road", "speed_limit": 50, "lanes": 2, "one_way": false},
+    "20-25": {"type": "secondary_road", "speed_limit": 40, "lanes": 1, "one_way": true, "direction": "east"},
+    "25-26": {"type": "secondary_road", "speed_limit": 40, "lanes": 1, "one_way": false},
+    "26-27": {"type": "local_road", "speed_limit": 30, "lanes": 1, "one_way": false},
+    "31-35": {"type": "main_road", "speed_limit": 50, "lanes": 2, "one_way": false},
+    "35-39": {"type": "main_road", "speed_limit": 50, "lanes": 2, "one_way": false},
+    "34-38": {"type": "secondary_road", "speed_limit": 40, "lanes": 1, "one_way": true, "direction": "east"},
+    "38-42": {"type": "secondary_road", "speed_limit": 40, "lanes": 1, "one_way": false}
+  },
+  "traffic_restrictions": {
+    "no_left_turn": ["7-9-14", "13-14-15", "19-20-21", "24-25-26", "31-32-33"],
+    "no_right_turn": ["1-7-6", "9-14-13", "15-19-18", "29-30-31", "35-36-37"],
+    "no_u_turn": ["0-6-0", "3-9-3", "5-11-5", "13-18-13", "24-29-24", "31-35-31"],
+    "only_straight": ["2-8-14", "8-14-15", "10-16-17", "20-25-26", "26-31-35"],
+    "blocked_roads": []
+  },
+  "landmarks": {
+    "0": {"name": "Town Hall", "type": "government"},
+    "5": {"name": "Highway Entrance", "type": "transport"},
+    "17": {"name": "Shopping Center", "type": "commercial"},
+    "22": {"name": "Industrial Zone", "type": "industrial"},
+    "28": {"name": "Residential Area North", "type": "residential"},
+    "33": {"name": "Residential Area South", "type": "residential"},
+    "40": {"name": "Park Entrance", "type": "recreation"},
+    "44": {"name": "Riverside Park", "type": "recreation"}
+  }
+}
